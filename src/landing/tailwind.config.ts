@@ -61,7 +61,8 @@ const config: Config = {
   			marquee: 'marquee var(--duration) infinite linear',
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
   			'shiny-text': 'shiny-text 8s infinite',
-  			'background-position-spin': 'background-position-spin 3000ms infinite alternate'
+  			'background-position-spin': 'background-position-spin 3000ms infinite alternate',
+  			aurora: 'aurora 60s linear infinite'
   		},
   		keyframes: {
   			'border-beam': {
@@ -77,6 +78,11 @@ const config: Config = {
   					transform: 'translateX(calc(-100% - var(--gap)))'
   				}
   			},
+			gradient: {
+				"0%": { backgroundPosition: "0% 50%" },
+				"50%": { backgroundPosition: "100% 50%" },
+				"100%": { backgroundPosition: "0% 50%" },
+			},
   			'marquee-vertical': {
   				from: {
   					transform: 'translateY(0)'
@@ -99,6 +105,14 @@ const config: Config = {
   				},
   				'100%': {
   					backgroundPosition: 'bottom center'
+  				}
+  			},
+  			aurora: {
+  				from: {
+  					backgroundPosition: '50% 50%, 50% 50%'
+  				},
+  				to: {
+  					backgroundPosition: '350% 50%, 350% 50%'
   				}
   			}
   		}

@@ -8,7 +8,7 @@ import FooterSection from "./components/Footer";
 
 export default function MarqueeDemoVertical() {
   return (
-    <>
+    <> 
       <Header />
       <div className="w-full">
         <HeroSection />

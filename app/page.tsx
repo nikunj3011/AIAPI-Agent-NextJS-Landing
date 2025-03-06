@@ -5,10 +5,14 @@ import TestimonialsSectionComponent from "./components/TestimonialsSection";
 import MainFeaturesSection from "./components/MainFeaturesSection";
 import Faq from "./components/Faq";
 import FooterSection from "./components/Footer";
+import Head from "next/dist/shared/lib/head";
 
 export default function MarqueeDemoVertical() {
   return (
     <> 
+      <div>
+          <title>NextGen Customware</title>
+      </div>
       <Header />
       <div className="w-full">
         <HeroSection />

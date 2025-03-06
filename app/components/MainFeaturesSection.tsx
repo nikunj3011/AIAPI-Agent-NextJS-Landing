@@ -21,7 +21,7 @@ const DummyContent = () => {
               thought.
             </p>
             <Image
-              src="/NG_Logo_Clear.png"
+              src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//NG_Logo_Clear.png"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
@@ -37,19 +37,19 @@ const data = [
   {
     category: "",
     title: "Hoodie",
-    src: "/hoodie.jpg",
+    src: "https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//hoodie.jpg",
     content: <DummyContent />,
   },
   {
     category: "",
     title: "Polo Tshirt",
-    src: "/polo.jpg",
+    src: "https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//polo.jpg",
     content: <DummyContent />,
   },
   {
     category: "",
     title: "Caps",
-    src: "/cap.jpg",
+    src: "https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//cap.jpg",
     content: <DummyContent />,
   },
 ];

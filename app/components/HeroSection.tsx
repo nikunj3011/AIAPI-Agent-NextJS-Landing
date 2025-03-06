@@ -8,7 +8,7 @@ const HeroSection = () => {
       <BlurFade delay={0.25} inView>
         <div className="relative flex w-full flex-row items-center justify-center overflow-hidden">
           <Image
-            src="/NG_Logo_Clear.png"
+            src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//NG_Logo_Clear.png"
             alt="Logo"
             width={500}
             height={500}

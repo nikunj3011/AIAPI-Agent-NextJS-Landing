@@ -51,6 +51,18 @@ export function TestimonialCard({
       <p className="sm:text-md mt-4 text-sm text-muted-foreground">
         {text}
       </p>
+      <style jsx>{`
+        @media (max-width: 640px) {
+          h3 {
+            word-break: break-word; /* Ensure long words break to a new line */
+            white-space: normal; /* Allow text to wrap */
+          }
+          p {
+            word-break: break-word; /* Ensure long words break to a new line */
+            white-space: normal; /* Allow text to wrap */
+          }
+        }
+      `}</style>
     </Card>
   )
 }

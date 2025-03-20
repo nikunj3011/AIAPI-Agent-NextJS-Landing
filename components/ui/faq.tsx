@@ -1,4 +1,3 @@
-// components/ui/faq-section.tsx
 "use client";
 
 import * as React from "react";
@@ -84,6 +83,18 @@ const FaqSection = React.forwardRef<HTMLElement, FaqSectionProps>(
             </motion.div>
           )}
         </div>
+        <style jsx>{`
+          @media (max-width: 640px) {
+            h2 {
+              word-break: break-word; /* Ensure long words break to a new line */
+              white-space: normal; /* Allow text to wrap */
+            }
+            p {
+              word-break: break-word; /* Ensure long words break to a new line */
+              white-space: normal; /* Allow text to wrap */
+            }
+          }
+        `}</style>
       </section>
     );
   }

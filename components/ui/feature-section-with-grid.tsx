@@ -23,8 +23,14 @@ function Feature() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video mb-2">
-                <Image src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//capjacket.jpg" alt="Logo" width={500} height={500} />
+              <div className="bg-muted rounded-md overflow-hidden aspect-square mb-2">
+                <Image
+                  src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//capjacket.jpg"
+                  alt="Logo"
+                  width={500}
+                  height={650}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <h3 className="text-xl tracking-tight">Hoodies & Winter Caps (Toques)</h3>
               <p className="text-muted-foreground text-base">
@@ -32,8 +38,14 @@ function Feature() {
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video mb-2">
-                <Image src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//Beanies.jpg" alt="Logo" width={500} height={500} />
+              <div className="bg-muted rounded-md overflow-hidden aspect-square mb-2">
+                <Image
+                  src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//Beanies.jpg"
+                  alt="Logo"
+                  width={500}
+                  height={650}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <h3 className="text-xl tracking-tight">Caps & Beanies</h3>
               <p className="text-muted-foreground text-base">
@@ -41,8 +53,14 @@ function Feature() {
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video mb-2">
-                <Image src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//polo-2.jpg" alt="Logo" width={500} height={500} />
+              <div className="bg-muted rounded-md overflow-hidden aspect-square mb-2">
+                <Image
+                  src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//polo-2.jpg"
+                  alt="Logo"
+                  width={500}
+                  height={650}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <h3 className="text-xl tracking-tight">T-Shirts & Polo Shirts</h3>
               <p className="text-muted-foreground text-base">
@@ -50,8 +68,14 @@ function Feature() {
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video mb-2">
-                <Image src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//officewear.jpg" alt="Logo" width={500} height={500} />
+              <div className="bg-muted rounded-md overflow-hidden aspect-square mb-2">
+                <Image
+                  src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//officewear.jpg"
+                  alt="Logo"
+                  width={500}
+                  height={650}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <h3 className="text-xl tracking-tight">Office Wear</h3>
               <p className="text-muted-foreground text-base">
@@ -59,8 +83,14 @@ function Feature() {
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video mb-2">
-                <Image src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//corporate-apparel.jpg" alt="Logo" width={500} height={500} />
+              <div className="bg-muted rounded-md overflow-hidden aspect-square mb-2">
+                <Image
+                  src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//corporate-apparel.jpg"
+                  alt="Logo"
+                  width={500}
+                  height={650}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <h3 className="text-xl tracking-tight">Corporate Apparel</h3>
               <p className="text-muted-foreground text-base">
@@ -68,8 +98,14 @@ function Feature() {
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video mb-2">
-                <Image src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//card.jpg" alt="Logo" width={500} height={500} />
+              <div className="bg-muted rounded-md overflow-hidden aspect-square mb-2">
+                <Image
+                  src="https://nikunj3011.github.io/AIAPI-Agent-NextJS-Landing//card.jpg"
+                  alt="Logo"
+                  width={500}
+                  height={650}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <h3 className="text-xl tracking-tight">Stickers & Business Cards</h3>
               <p className="text-muted-foreground text-base">
@@ -79,20 +115,6 @@ function Feature() {
           </div>
         </div>
       </div>
-      <style jsx>{`
-        @media (max-width: 640px) {
-          h2 {
-            word-break: break-word; /* Ensure long words break to a new line */
-            white-space: normal; /* Allow text to wrap */
-            margin: 0 1rem; /* Add margin to prevent overflow */
-          }
-          p {
-            word-break: break-word; /* Ensure long words break to a new line */
-            white-space: normal; /* Allow text to wrap */
-            margin: 0 1rem; /* Add margin to prevent overflow */
-          }
-        }
-      `}</style>
     </div>
   );
 }

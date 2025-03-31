@@ -5,6 +5,7 @@ const nextConfig = {
     reactStrictMode: true,
     images: { 
         unoptimized: true,
+        domains: ['nikunj3011.github.io'],
         remotePatterns: [
             {
                 protocol: 'https',
@@ -13,7 +14,20 @@ const nextConfig = {
                 pathname: '/AIAPI-Agent-NextJS-Landing/**', // Adjust path as needed
             },
         ],
-    }
+    },
+    async headers() {
+        return [
+          {
+            source: '/_next/image(.*)', // Cache optimized images served by Next.js
+            headers: [
+              {
+                key: 'Cache-Control',
+                value: 'public, max-age=31536000, immutable', // Cache for 1 year
+              },
+            ],
+          },
+        ];
+      },
 };
 
 export default nextConfig;

@@ -17,7 +17,7 @@ const DEMO_FAQS = [
       "We offer flexible, transparent pricing tiers designed to scale with your needs. Each tier includes a core set of features, with additional capabilities as you move up. All plans start with a 14-day free trial.",
   },
   {
-    question: "Can I customize the design of my printed products?",
+    question: "Can I customize the design of printed products?",
     answer:
       "Yes, we offer custom design services for all our printed products. Our team of expert designers will work with you to create a design that meets your specifications and branding requirements. We also accept customer-supplied designs.",
   },
